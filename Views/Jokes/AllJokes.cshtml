@@ -1,0 +1,7 @@
+﻿@model List<JokesModel>
+
+@foreach (JokesModel joke in Model) {
+	<h2>@joke.Joke</h2>
+}
+
+@*Detta ovan funkar ej då alla skämt vi försöker komma åt ej finns i ngn endpoint*@
